@@ -11,4 +11,6 @@ Reinstalar uma versão anterior não desfaz alterações realizadas nos dados po
 6. Quando o formato dos dados não permitir retorno direto, restaure o backup pré-atualização conforme orientação. Essa restauração pode não incluir trabalhos posteriores ao backup; preserve-os antes.
 
 As versões distribuídas devem permanecer arquivadas. Uma versão retirada de recomendação não será silenciosamente substituída por outros bytes com o mesmo número.
-Esta preparação não oferece rollback automático nem garante compatibilidade de downgrade entre quaisquer duas versões.
+A partir da 0.27.0, atualizações incrementais compatíveis preservam uma cópia dos arquivos substituídos. O utilitário **Atualização e recuperação**, disponível também no menu Iniciar, pode retornar o programa à versão anterior. Em falha durante a troca, ele tenta restaurar os arquivos; depois de uma interrupção de energia, execute a recuperação antes de abrir o programa. A operação exige o Skyterm fechado e a integridade do backup local.
+
+Essa recuperação não equivale a restaurar dados nem garante downgrade entre quaisquer duas versões. Reinstalações completas, alterações de formato ou backups corrompidos podem exigir assistência.
