@@ -1,0 +1,6 @@
+# Somente documentação pública neste histórico. Binários pertencem às Releases.
+*
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/RECUPERACAO.md
