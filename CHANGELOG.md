@@ -4,7 +4,8 @@
 
 - Versão visível no título da janela desktop para conferir atualização.
 - Validação do pacote incremental 0.27.0 para 0.27.1 e retorno.
-- Standard aguarda compilação pelo responsável e link do instalador na nuvem.
+- Standard compilado pelo responsável, com link do instalador no OneDrive nas notas da release.
+- Atualização real e retorno validados localmente nas duas edições; pacotes assinados anexados aos rascunhos.
 - Sem alteração de formato de dados ou protocolo de licença. Não disponibilizada aos clientes nesta etapa.
 
 ## 0.27.0 — publicada em 31/10/2026
