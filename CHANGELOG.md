@@ -1,5 +1,12 @@
 # Histórico de distribuição
 
+## 0.27.1 — preparação em rascunho
+
+- Versão visível no título da janela desktop para conferir atualização.
+- Validação do pacote incremental 0.27.0 para 0.27.1 e retorno.
+- Standard aguarda compilação pelo responsável e link do instalador na nuvem.
+- Sem alteração de formato de dados ou protocolo de licença. Não disponibilizada aos clientes nesta etapa.
+
 ## 0.27.0 — publicada em 31/10/2026
 
 - Instalador completo inicial com utilitário independente de atualização e recuperação.
