@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.27.3 — publicada em 31/10/2026
+
+- Versão de continuidade para testar o aviso de atualização ao iniciar a 0.27.2; sem nova mudança funcional.
+- Comportamento da 0.27.2 aprovado pelo responsável. Publicação da 0.27.3 autorizada.
+- Atualização e retorno dos seis caminhos aprovados em cópias isoladas; consulta pública, assinatura e download integral verificados sem autenticação.
+- Incrementais diretos desde 0.27.0, 0.27.1 e 0.27.2 nas duas edições.
+- Instaladores completos compilados localmente; distribuição pelo responsável. Nenhum completo ou parte anexado às novas releases.
+- Releases contêm apenas incrementais assinados, manuais e hashes, sem links para instaladores completos.
+
 ## 0.27.2 — publicada em 31/10/2026
 
 - Consulta de atualizações na inicialização, em segundo plano.
