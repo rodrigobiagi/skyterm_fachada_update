@@ -1,12 +1,13 @@
 # Histórico de distribuição
 
-## 0.27.1 — preparação em rascunho
+## 0.27.1 — publicada em 31/10/2026
 
 - Versão visível no título da janela desktop para conferir atualização.
 - Validação do pacote incremental 0.27.0 para 0.27.1 e retorno.
 - Standard compilado pelo responsável, com link do instalador no OneDrive nas notas da release.
-- Atualização real e retorno validados localmente nas duas edições; pacotes assinados anexados aos rascunhos.
-- Sem alteração de formato de dados ou protocolo de licença. Não disponibilizada aos clientes nesta etapa.
+- Atualização real e retorno validados localmente nas duas edições; pacotes assinados publicados nas releases.
+- Sem alteração de formato de dados ou protocolo de licença. Disponível aos clientes compatíveis desde a 0.27.0, por autorização do responsável.
+- Consulta pública, assinatura e download integral dos dois deltas verificados sem autenticação.
 
 ## 0.27.0 — publicada em 31/10/2026
 
