@@ -1,13 +1,14 @@
 # Histórico de distribuição
 
-## 0.27.2 — em preparação
+## 0.27.2 — publicada em 31/10/2026
 
 - Consulta de atualizações na inicialização, em segundo plano.
 - Janela de aviso com Atualizar agora e Mais tarde quando houver pacote compatível.
 - Abertura do atualizador pela janela principal com confirmação e fechamento seguro do aplicativo ocioso.
 - Operações em andamento impedem o fechamento; cancelar UAC mantém o aplicativo utilizável. Outras sessões exigem fechamento manual.
 - Standard compilado pelo responsável, com link OneDrive nas notas.
-- Deltas diretos das bases 0.27.0 e 0.27.1 validados nas duas edições, incluindo retorno. Releases permanecem em rascunho.
+- Deltas diretos das bases 0.27.0 e 0.27.1 validados nas duas edições, incluindo retorno. Publicação autorizada pelo responsável.
+- Consulta pública, assinatura e download dos quatro pacotes verificados sem autenticação.
 
 ## 0.27.1 — publicada em 31/10/2026
 
