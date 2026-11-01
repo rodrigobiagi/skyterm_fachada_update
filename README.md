@@ -21,7 +21,7 @@ Não trocar de edição durante uma atualização. Os termos Standard/Parceiro i
 ## Atualizar e recuperar
 
 Finalize análises e treinamentos, faça um backup operacional e guarde-o fora da pasta de dados. Confira os manuais e notas da versão antes de instalar.
-A versão 0.27.0 introduz um utilitário de atualização e recuperação, sujeito à homologação da release. Para versões anteriores, a primeira atualização exige instalador completo. Depois, o utilitário pode baixar pacotes incrementais compatíveis e assinados, mediante ação do usuário. Rascunhos e pré-releases não são oferecidos pelo aplicativo. Veja [Recuperação](RECUPERACAO.md).
+A versão 0.27.0 introduz um utilitário de atualização e recuperação, publicado após confirmação de teste funcional pelo responsável. Para versões anteriores, a primeira atualização exige instalador completo. Depois, o utilitário pode baixar pacotes incrementais compatíveis e assinados, mediante ação do usuário. Rascunhos e pré-releases não são oferecidos pelo aplicativo. Veja [Recuperação](RECUPERACAO.md).
 
 Hashes dos instaladores completos conferem integridade. Os futuros pacotes incrementais usam também manifesto assinado pelo fornecedor; essa assinatura não equivale à assinatura de código do Windows.
 
