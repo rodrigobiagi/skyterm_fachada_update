@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.27.2 — em preparação
+
+- Consulta de atualizações na inicialização, em segundo plano.
+- Janela de aviso com Atualizar agora e Mais tarde quando houver pacote compatível.
+- Abertura do atualizador pela janela principal com confirmação e fechamento seguro do aplicativo ocioso.
+- Operações em andamento impedem o fechamento; cancelar UAC mantém o aplicativo utilizável. Outras sessões exigem fechamento manual.
+- Standard aguarda compilação do responsável. Releases permanecem em rascunho.
+
 ## 0.27.1 — publicada em 31/10/2026
 
 - Versão visível no título da janela desktop para conferir atualização.
