@@ -1,5 +1,12 @@
 # Histórico de distribuição
 
+## 0.28.5 — publicada em 04/11/2026
+
+- Laudo de inspeção de fachadas com cobertura, manutenção, documentação, ensaios opcionais e providências por prioridade. Mapa de danos e memorial podem acompanhar o PDF e o ZIP.
+- Atualização direta e retorno verificados nas edições Standard e Parceiro a partir de 0.27.0, 0.27.1, 0.27.2, 0.27.3 e da compilação local 0.28.4. Os dez downloads públicos e as assinaturas foram conferidos.
+- Categorias novas podem aparecer como indeterminadas na reversão; voltar à 0.28.5 recupera o termo exato dos registros preservados.
+- Cada release inclui cinco incrementais, cinco manifestos assinados, três manuais e a lista SHA-256.
+
 ## 0.27.3 — publicada em 31/10/2026
 
 - Versão de continuidade para testar o aviso de atualização ao iniciar a 0.27.2; sem nova mudança funcional.
