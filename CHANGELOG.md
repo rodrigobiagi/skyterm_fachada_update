@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.28.7 — publicada em 07/11/2026
+
+- Janela unificada para criar e complementar ocorrências por Ponto, Caixa ou Máscara, com Localização e Sistemas envolvidos.
+- Exibição das ocorrências existentes da imagem ativa, destaque do complemento, opção de mostrar/ocultar e lupa móvel com tamanho e zoom ajustáveis.
+- Atualização direta e retorno verificados em cópias isoladas das bases 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.28.4, 0.28.5 e 0.28.6, nas edições Standard e Parceiro.
+- Cada release inclui sete incrementais assinados, sete manifestos, três manuais e uma lista SHA-256. Os 36 anexos foram conferidos por tamanho e hash remoto. Instaladores completos permanecem fora do GitHub.
+- O código F001, F002 etc. identifica a ocorrência; a classificação é um campo separado e permanece associada ao registro.
+
 ## 0.28.5 — publicada em 04/11/2026
 
 - Laudo de inspeção de fachadas com cobertura, manutenção, documentação, ensaios opcionais e providências por prioridade. Mapa de danos e memorial podem acompanhar o PDF e o ZIP.
