@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.28.9 — publicada em 08/11/2026
+
+- Botão único Editar ocorrência abre a imagem correspondente em janela própria, com ponto, caixa, máscara, ocorrências existentes, seleção de segmento e lupa.
+- Formulário preenchido com classificação, elemento, localização, sistemas envolvidos/Outro, descrição e observações/justificativa. Geometria e dados são salvos juntos; códigos e demais segmentos preservados.
+- Mudanças em ocorrências aprovadas exigem nova revisão. Proteção contra sobrescrita por janelas antigas; atualização da tela principal mantém campos ainda não salvos.
+- Nove bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.8. Cada release inclui nove incrementais, nove manifestos assinados, três manuais e lista SHA-256. Instaladores completos permanecem locais.
+- Sem atualização do portal de licenças ou ajuste manual de configuração.
+
 ## 0.28.8 — publicada em 08/11/2026
 
 - Relatório e laudo com fichas em ordem natural crescente por Localização: torre, fachada, passada e andar. Sufixo após o andar ignorado; campos vazios ao final; identificadores e vínculos preservados.
