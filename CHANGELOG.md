@@ -1,5 +1,12 @@
 # Histórico de distribuição
 
+## 0.28.8 — publicada em 08/11/2026
+
+- Relatório e laudo com fichas em ordem natural crescente por Localização: torre, fachada, passada e andar. Sufixo após o andar ignorado; campos vazios ao final; identificadores e vínculos preservados.
+- Standard: parâmetros YOLO em Configurações > Processamento, com descrições, listas, validação numérica e confiança por classificação. Aceita 0.25 ou 0,25 e recusa 25 para confiança. Preferências por usuário e aplicação nas próximas análises; sem edição manual de arquivos.
+- Atualização direta e retorno nas bases 0.27.0 a 0.27.3 e 0.28.4 a 0.28.7, nas duas edições. Cada release inclui oito incrementais, oito manifestos assinados, três manuais e lista SHA-256. Instaladores completos permanecem locais.
+- Não requer atualização do portal de licenças. Revisão humana, geometrias e histórico emitido preservados.
+
 ## 0.28.7 — publicada em 07/11/2026
 
 - Janela unificada para criar e complementar ocorrências por Ponto, Caixa ou Máscara, com Localização e Sistemas envolvidos.
