@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.28.10 — publicada em 10/11/2026
+
+- Relatório e laudo incluem a imagem pareada sem ocorrências como referência quando a outra está completamente revisada e possui ocorrência aprovada ou corrigida, nos dois sentidos RGB/térmica.
+- Referência identificada e sem marcações; não conta como ocorrência nem confirma ausência de problemas. Fotos com ocorrências pendentes continuam excluídas. Pacote de fotografias usa a mesma regra.
+- Atualização direta das dez bases 0.27.0 a 0.27.3 e 0.28.4 a 0.28.9. Cada release contém dez incrementais, dez manifestos assinados, três manuais e lista SHA-256. Instaladores completos permanecem locais.
+- Teste integral de atualização e recuperação somente a partir da 0.28.9, nas duas edições. Demais bases: assinatura e integridade dos pacotes; matriz integral histórica não repetida.
+- Sem atualização do portal de licenças ou ajuste manual de configuração. Minutas anteriores podem exigir atualização; documentos históricos emitidos permanecem preservados.
+
 ## 0.28.9 — publicada em 08/11/2026
 
 - Botão único Editar ocorrência abre a imagem correspondente em janela própria, com ponto, caixa, máscara, ocorrências existentes, seleção de segmento e lupa.
