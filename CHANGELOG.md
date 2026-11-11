@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.28.11 — publicada em 10/11/2026
+
+- Confirmação humana de fotos sem ocorrências com nome e data permite inclusão nos documentos. Reprocessamento invalida a confirmação, preservando o histórico. Referências do par permanecem distintas de revisão humana; fotos com ocorrências pendentes continuam excluídas.
+- Cada imagem ou par é seguido das respectivas fichas. Localização em negrito abaixo das imagens e como primeiro campo da ocorrência. Ordem natural crescente dentro do conjunto; conjuntos seguem a primeira localização, sem ordem global estrita entre fichas de conjuntos diferentes.
+- Correspondência espacial ausente como Não informada; N/A explícito como Não se aplica.
+- Onze bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.10. Cada release contém onze incrementais, onze manifestos assinados, três manuais e lista SHA-256. Instaladores completos permanecem locais.
+- 435 testes e 10 subtestes aprovados. Atualização e recuperação integral somente a partir da 0.28.10 nas duas edições; demais bases verificadas por assinatura e integridade. Atualizador inalterado.
+- Sem atualização do portal de licenças ou ajuste manual de configuração. Documentos históricos preservados. Ao retornar à 0.28.10, fotos isoladas confirmadas sem ocorrências deixam de ser elegíveis naquela versão, sem apagar fotos ou dados.
+
 ## 0.28.10 — publicada em 10/11/2026
 
 - Relatório e laudo incluem a imagem pareada sem ocorrências como referência quando a outra está completamente revisada e possui ocorrência aprovada ou corrigida, nos dois sentidos RGB/térmica.
