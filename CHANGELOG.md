@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.28.12 — publicada em 11/11/2026
+
+- Responsável pela revisão definido na inspeção, sem preencher o nome em cada ocorrência ou confirmação de foto sem ocorrências. Confirmação humana e histórico de autores/datas preservados.
+- Emissor igual ao revisor por padrão, com opção de profissional distinto. Nome do revisor na Identificação do objeto inspecionado, sem repetição nas fichas. Documentos históricos preservados; importação transporta os dois responsáveis.
+- Interface com Resumo, Fotos e revisão e Documentos, próxima ação conforme pendências, Mais ações para manutenção/exclusão, lupa inicialmente afastada dos controles e apresentação consistente no editor. Ajuda contextual de processamento e contagem de máscaras corrigida.
+- Doze bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.11. Cada release inclui doze incrementais, doze manifestos assinados, três manuais e lista SHA-256. Instaladores completos somente locais.
+- 441 testes e 10 subtestes aprovados. Atualização e recuperação integrais somente a partir da 0.28.11 nas duas edições; demais bases verificadas por assinatura e integridade. Atualizador inalterado.
+- Nas inspeções existentes, selecione o Responsável pela revisão antes de novas confirmações. Sem alteração manual de configuração ou atualização do portal de licenças.
+
 ## 0.28.11 — publicada em 10/11/2026
 
 - Confirmação humana de fotos sem ocorrências com nome e data permite inclusão nos documentos. Reprocessamento invalida a confirmação, preservando o histórico. Referências do par permanecem distintas de revisão humana; fotos com ocorrências pendentes continuam excluídas.
