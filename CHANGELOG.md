@@ -1,5 +1,15 @@
 # Histórico de distribuição
 
+## 0.28.15 — publicada em 11/11/2026
+
+- Correção da emissão do laudo com responsável pela revisão da inspeção, preservando autores e datas históricos. Campos técnicos ausentes aparecem no checklist, com imagem e ocorrência identificadas.
+- Indicadores calculados pela revisão atual, antes ou depois da minuta: Elemento, Sistemas envolvidos e Localização, contagens de ocorrências e campos, links diretos e pendências documentais. Fotos pendentes excluídas e referências do par identificadas separadamente.
+- Botão Fotos e Revisão ao lado de Voltar à inspeção; atualização dos indicadores ao retornar após corrigir dados. Confirmações humanas permanecem obrigatórias.
+- Contraste corrigido em avisos temporários, cartões de segmentos e status da licença nos temas Claro, Escuro e Sistema. Fotografias, marcações e documentos preservados.
+- Quinze bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.14. Cada release inclui quinze incrementais, quinze manifestos assinados, três manuais e lista SHA-256. Instaladores completos somente locais.
+- 467 testes e 10 subtestes aprovados, mais seis testes direcionados após a atualização das referências de cache. Atualização e recuperação integrais somente a partir da 0.28.14 nas duas edições; demais bases verificadas por assinatura e integridade. Atualizador inalterado. Seis manuais revisados visualmente, 92 páginas.
+- Sem ajuste manual de configuração ou atualização do portal de licenças. Após completar campos técnicos, prepare nova minuta e confira a prévia. Ao retornar à 0.28.14, os novos indicadores e as correções de validação/contraste deixam de estar disponíveis.
+
 ## 0.28.14 — publicada em 11/11/2026
 
 - Configurações > Aparência com Claro, Escuro e Usar tema do sistema. Preferência individual, propagada às janelas de ocorrências sem recarregar nem descartar edições. Fotos, paletas térmicas, marcações e apresentação dos documentos preservadas.
