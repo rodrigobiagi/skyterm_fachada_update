@@ -1,5 +1,15 @@
 # Histórico de distribuição
 
+## 0.28.14 — publicada em 11/11/2026
+
+- Configurações > Aparência com Claro, Escuro e Usar tema do sistema. Preferência individual, propagada às janelas de ocorrências sem recarregar nem descartar edições. Fotos, paletas térmicas, marcações e apresentação dos documentos preservadas.
+- Confirmação de fotos sem ocorrências acessível; cabeçalhos compactos, área de revisão ampliável e divisão ajustável no desktop. Controles adaptados a fotos vazias e singular de pendente corrigido.
+- Inspeção com indicadores recolhíveis; ações de documentos antes dos campos complementares; formulário de ocorrência com campos roláveis e ações acessíveis.
+- Responsável pela execução retirado de Empresa / Introdução e dos novos documentos. Valor legado preservado; mantidos os responsáveis vinculados à inspeção, revisão/relatório e laudo.
+- Quatorze bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.13. Cada release inclui quatorze incrementais, quatorze manifestos assinados, três manuais e lista SHA-256. Instaladores completos somente locais.
+- 455 testes e 10 subtestes aprovados, mais 13 testes direcionados após o ajuste final do aviso de referência. Atualização e recuperação integrais somente a partir da 0.28.13 nas duas edições; demais bases verificadas por assinatura e integridade. Atualizador inalterado. Seis manuais revisados visualmente.
+- Sem ajuste manual de configuração ou atualização do portal de licenças. Documentos históricos preservados. Ao retornar à 0.28.13, essa versão ignora o tema e pode exibir novamente o responsável institucional legado em novos documentos.
+
 ## 0.28.13 — publicada em 11/11/2026
 
 - Cadastro com campos obrigatórios conforme profissão/função; ID SARPAS obrigatório para operadores, inclusive profissionais que acumulam a função. Outro exige especificação; sem Analista. CPF e contatos opcionais.
