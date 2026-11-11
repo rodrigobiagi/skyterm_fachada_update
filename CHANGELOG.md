@@ -1,5 +1,16 @@
 # Histórico de distribuição
 
+## 0.28.17 — publicada em 11/11/2026
+
+- Geração de laudos extensos em lotes automáticos, reunidos em uma única minuta. Escopos pequenos mantêm uma chamada. Fotos não são reenviadas nem reanalisadas.
+- Conclusões e recomendações individuais preservam os vínculos com as ocorrências revisadas. Cobertura exata dos IDs, exclusões de recomendações e revisão humana mantidas. Resumos parciais alimentam a análise integrada, sem substituir os textos individuais.
+- Etapas válidas concluídas ficam salvas neste computador e podem ser reaproveitadas em nova tentativa com os mesmos dados, instruções, contexto, modelo e revisão. Falhas ou alterações concorrentes preservam a minuta anterior. Não há repetição automática de chamadas.
+- Progresso identifica lote e consolidação. A interface explica tempo e consumo da API; novas chamadas consomem créditos. Salvamento aceita minutas maiores, mantendo o formato e o limite de 1.000 ocorrências.
+- Manual de uso inclui legenda dos 12 Elementos, identificação visual, distinção de Sistemas envolvidos e orientações de laudos em etapas. Seis manuais revisados visualmente, 104 páginas.
+- 492 testes e 10 subtestes aprovados, mais 60 testes direcionados após o ajuste final. Rotas da aplicação verificadas com 35 ocorrências, falha, retomada, preservação da minuta e prévia de 26 páginas, com IA simulada.
+- Atualização e recuperação integrais somente 0.28.16 → 0.28.17 → 0.28.16 nas duas edições. Atualizador inalterado. Dezessete bases por edição, 0.27.0 a 0.27.3 e 0.28.4 a 0.28.16, com assinatura e integridade verificadas. Cada release contém 38 anexos: dezessete incrementais, dezessete manifestos, três manuais e lista SHA-256.
+- Instaladores completos somente locais. Sem ajuste manual de configuração ou atualização do portal de licenças. Ao retornar à 0.28.16, voltam o fluxo de geração e o limite de salvamento anteriores. Faça backup operacional e confira a minuta completa e uma nova prévia antes de emitir.
+
 ## 0.28.16 — publicada em 11/11/2026
 
 - Elemento, Sistemas envolvidos e Localização podem ser alterados sem justificativa, inclusive em ocorrências aprovadas. Os três campos continuam necessários para emitir o laudo.
