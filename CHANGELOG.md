@@ -1,5 +1,16 @@
 # Histórico de distribuição
 
+## 0.28.16 — publicada em 11/11/2026
+
+- Elemento, Sistemas envolvidos e Localização podem ser alterados sem justificativa, inclusive em ocorrências aprovadas. Os três campos continuam necessários para emitir o laudo.
+- Alterações efetivas de Classificação da ocorrência ou Incerteza ou limitação exigem explicação da nova decisão. Salvar sem mudança nesses campos dispensa nova justificativa. Geometrias realmente alteradas continuam exigindo confirmação humana; alterações somente de metadados deixam de ser sinalizadas como mudanças de geometria.
+- Descrição editável acima de Observações/Justificativa nas ocorrências dos dois lados do par RGB/térmico. Texto existente, edições e remoção são persistidos; formulários anteriores preservam a descrição. Histórico e proteção contra sobrescrita mantidos.
+- Novas sugestões de Elemento pela IA usam a lista atual de 12 opções. Cerâmico e argamassado são sistemas envolvidos. Sem identificação segura, a seleção fica para o revisor. Valores antigos continuam legíveis e não são convertidos automaticamente.
+- Cabeçalho completo em Revisão e Análise avulsa, com logo e subtítulo no padrão de Inspeções. Ampliar/Restaurar área de revisão permanece disponível.
+- Dezesseis bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.15. Cada release inclui dezesseis incrementais, dezesseis manifestos assinados, três manuais e lista SHA-256. Instaladores completos somente locais.
+- 478 testes e 10 subtestes aprovados, mais onze testes direcionados após o último ajuste do cartão de Elemento. Atualização e recuperação integrais somente a partir da 0.28.15 nas duas edições; demais bases verificadas por assinatura e integridade. Atualizador inalterado. Seis manuais revisados visualmente, 98 páginas.
+- Sem ajuste manual de configuração ou atualização do portal de licenças. Após modificar dados das ocorrências, atualize a minuta e confira nova prévia. Ao retornar à 0.28.15, voltam as regras anteriores de justificativa e apresentação dos campos/cabeçalho.
+
 ## 0.28.15 — publicada em 11/11/2026
 
 - Correção da emissão do laudo com responsável pela revisão da inspeção, preservando autores e datas históricos. Campos técnicos ausentes aparecem no checklist, com imagem e ocorrência identificadas.
