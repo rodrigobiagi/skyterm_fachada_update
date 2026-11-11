@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.28.13 — publicada em 11/11/2026
+
+- Cadastro com campos obrigatórios conforme profissão/função; ID SARPAS obrigatório para operadores, inclusive profissionais que acumulam a função. Outro exige especificação; sem Analista. CPF e contatos opcionais.
+- Responsável pela inspeção carrega nome e SARPAS; operador pode ser o mesmo ou outro profissional. Revisor emite o relatório; responsável técnico pelo laudo independente, podendo ser a mesma pessoa com perfil compatível. ART/RRT/TRT conforme cadastro.
+- Autoria, geometrias humanas e documentos históricos preservados. Importação remapeia os responsáveis sem duplicação. Novos perfis continuam armazenados após recuperação, mas sua edição e os novos vínculos exigem a 0.28.13.
+- Treze bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.12. Cada release inclui treze incrementais, treze manifestos assinados, três manuais e lista SHA-256. Instaladores completos somente locais.
+- 453 testes e 10 subtestes aprovados; atualização e recuperação integrais somente a partir da 0.28.12 nas duas edições. Demais bases verificadas por assinatura e integridade; atualizador inalterado. Seis manuais revisados visualmente.
+- Sem ajuste manual de configuração ou atualização do portal de licenças. Confira os cadastros e selecione os responsáveis na inspeção.
+
 ## 0.28.12 — publicada em 11/11/2026
 
 - Responsável pela revisão definido na inspeção, sem preencher o nome em cada ocorrência ou confirmação de foto sem ocorrências. Confirmação humana e histórico de autores/datas preservados.
