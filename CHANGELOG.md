@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.28.18 — publicada em 11/11/2026
+
+- Corrigida a lupa da tela de revisão que abria sem mostrar a fotografia. Os temas preservam imagem ampliada, zoom e acompanhamento do cursor. Validação com RGB e térmica nos temas Claro, Escuro e Usar tema do sistema.
+- Lupa de Nova ocorrência e Editar ocorrência, marcações humanas, revisões e documentos preservados. Sem ajuste manual de configuração ou atualização do portal de licenças.
+- Quatro testes direcionados de aparência e preparação do build aprovados. Atualização, abertura e recuperação integrais somente 0.28.17 → 0.28.18 → 0.28.17 nas duas edições. Atualizador inalterado; matriz integral histórica não repetida.
+- Dezoito bases por edição, 0.27.0 a 0.27.3 e 0.28.4 a 0.28.17, com assinatura e integridade verificadas. Cada release contém 40 anexos: dezoito incrementais, dezoito manifestos, três manuais e lista SHA-256. Seis manuais revisados visualmente, 104 páginas.
+- Instaladores completos somente locais. Faça backup operacional antes de atualizar. Ao retornar à 0.28.17, a falha visual da lupa da revisão pode reaparecer.
+
 ## 0.28.17 — publicada em 11/11/2026
 
 - Geração de laudos extensos em lotes automáticos, reunidos em uma única minuta. Escopos pequenos mantêm uma chamada. Fotos não são reenviadas nem reanalisadas.
