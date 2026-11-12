@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.28.19 — publicada em 12/11/2026
+
+- Ctrl + clique e arrastar permite mover a máscara inteira em Nova ocorrência e Editar ocorrência, preservando forma e tamanho dentro da imagem. Edição de vértices, lupa, salvamento explícito e revisão humana preservados.
+- Destacamento passa a aparecer como **Desplacamento**; Descolamento aparente passa a aparecer como **Destacamento**. São categorias distintas, aplicadas automaticamente a registros existentes e novos, com os mesmos vínculos, modelos e histórico. Concreto desplacado permanece separado. Não é necessário executar script sobre as inspeções.
+- Minutas afetadas precisam ser atualizadas e passar por nova prévia. Textos livres, documentos emitidos e instruções editoriais não são reescritos; confira as referências aos nomes anteriores. Sem ajuste manual de configuração ou atualização do portal de licenças.
+- 174 testes e 10 subtestes, 22 casos de eventos de arraste e quatro verificações finais de classificação aprovados. Fluxo visual conferido com dados fictícios. Atualização, abertura e recuperação integrais somente 0.28.18 → 0.28.19 → 0.28.18 nas duas edições. Atualizador inalterado; matriz integral histórica não repetida.
+- Dezenove bases por edição, 0.27.0 a 0.27.3 e 0.28.4 a 0.28.18, com assinatura e integridade verificadas. Cada release contém 42 anexos: dezenove incrementais, dezenove manifestos, três manuais e lista SHA-256. Seis manuais revisados visualmente, 106 páginas.
+- Instaladores completos somente locais. Faça backup operacional antes de atualizar. Ao retornar à versão anterior, voltam os nomes e os controles daquela versão.
+
 ## 0.28.18 — publicada em 11/11/2026
 
 - Corrigida a lupa da tela de revisão que abria sem mostrar a fotografia. Os temas preservam imagem ampliada, zoom e acompanhamento do cursor. Validação com RGB e térmica nos temas Claro, Escuro e Usar tema do sistema.
