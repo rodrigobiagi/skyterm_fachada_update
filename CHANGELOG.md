@@ -1,5 +1,15 @@
 # Histórico de distribuição
 
+## 0.28.20 — publicada em 12/11/2026
+
+- Standard: pausa do lote por falta de créditos ou bloqueio financeiro da API. Interrompe novos envios e preserva resultados das chamadas já iniciadas. Limites temporários recebem tentativas limitadas com espera.
+- Fila, imagens e configurações persistem após fechar o aplicativo. Retomar processamento continua apenas as pendentes, sem refazer análises concluídas ou substituir revisões humanas. Pares RGB/térmicos preservados. Progresso separado por situação, acesso ao faturamento e descarte da fila pendente sem excluir resultados salvos.
+- Recuperação disponível para lotes iniciados na 0.28.20; falhas antigas exigem selecionar novamente apenas fotos não concluídas. Filas ficam no computador de origem e não integram a exportação de inspeção. A 0.28.19 não retoma essas filas. Chamadas interrompidas antes de salvar a resposta podem precisar ser repetidas e gerar consumo.
+- Parceiro sincronizado, preservando revisão, importação e documentos; análise de fotos permanece exclusiva da Standard. Sem ajuste manual de configuração ou atualização do portal de licenças.
+- 114 testes pertinentes e retomada após reinício conferida na interface com dados fictícios, sem chamadas pagas de IA. Atualização, abertura e recuperação integrais somente 0.28.19 → 0.28.20 → 0.28.19 nas duas edições. Atualizador inalterado; matriz integral histórica não repetida.
+- Vinte bases por edição, 0.27.0 a 0.27.3 e 0.28.4 a 0.28.19, com assinatura e integridade verificadas. Cada release contém 44 anexos: vinte incrementais, vinte manifestos, três manuais e lista SHA-256. Seis manuais revisados visualmente, 107 páginas.
+- Instaladores completos somente locais. Faça backup operacional antes de atualizar. Bundles e releases anteriores preservados.
+
 ## 0.28.19 — publicada em 12/11/2026
 
 - Ctrl + clique e arrastar permite mover a máscara inteira em Nova ocorrência e Editar ocorrência, preservando forma e tamanho dentro da imagem. Edição de vértices, lupa, salvamento explícito e revisão humana preservados.
