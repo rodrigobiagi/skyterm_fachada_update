@@ -1,5 +1,16 @@
 # Histórico de distribuição
 
+## 0.28.21 — publicada em 14/11/2026
+
+- Indicadores de revisão na tela do par RGB/térmico, atualizados após salvar, com decisões pendentes, campos técnicos e acesso à pendência. Alterações não salvas, referência do par e revisão humana são estados distintos. Posição de navegação separada das contagens da inspeção.
+- Revisão concluída — minuta desatualizada: campos atuais separados das pendências da minuta anterior. Orientação para preparar uma nova minuta, com geração por IA explícita e nova conferência. Bloqueios de emissão preservados.
+- PDF otimizado; ao incluir marcações na entrega, imagens em alta resolução em imgs e galeria offline Abrir_imagens.html por Localização. Links relativos no PDF para leitores compatíveis; no navegador, usar a galeria. Extrair o pacote inteiro e manter sua estrutura. Originais preservados; ZIP pode continuar grande.
+- Correção da seleção e arraste de vértices na criação de máscara, sem duplicar pontos. Ctrl + arraste preservado.
+- 56 testes Python finais pertinentes, 35 casos de ponteiro e teste do JavaScript dos indicadores aprovados, sem chamadas pagas de IA. Seis manuais comerciais, 119 páginas, revisados visualmente. PDF fictício comparado: 2.074.966 → 680.211 bytes; redução varia conforme as imagens.
+- Atualização, abertura e recuperação integrais somente 0.28.20 → 0.28.21 → 0.28.20 nas duas edições. Atualizador inalterado. Assinatura e integridade verificadas para 21 bases por edição (0.27.0 a 0.27.3 e 0.28.4 a 0.28.20). 46 anexos por release: 21 incrementais, 21 manifestos, três manuais e SHA-256.
+- Conferência interativa da tela e dos links em leitores de PDF permanece pendente: a automação do navegador foi interrompida por não identificar a URL com segurança. Links, galeria e preservação de campos conferidos em testes automatizados; PDFs revisados visualmente.
+- Sem configuração manual ou atualização do portal de licenças. Instaladores completos somente locais. Fazer backup operacional antes de atualizar; versões anteriores preservadas.
+
 ## 0.28.20 — publicada em 12/11/2026
 
 - Standard: pausa do lote por falta de créditos ou bloqueio financeiro da API. Interrompe novos envios e preserva resultados das chamadas já iniciadas. Limites temporários recebem tentativas limitadas com espera.
