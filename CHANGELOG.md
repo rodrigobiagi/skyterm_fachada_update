@@ -1,5 +1,26 @@
 # Histórico de distribuição
 
+## 0.28.22 — publicada em 15/11/2026
+
+- Relatório, laudo e pacote de entrega utilizam a mesma seleção fotográfica: fotos com ocorrências aprovadas ou corrigidas e revisão concluída, acompanhadas da referência RGB/térmica quando aplicável. Fotos isoladas sem ocorrências e fotos com apenas ocorrências rejeitadas não entram no registro fotográfico. Os estados de revisão humana e referência do par continuam distintos.
+- Uma única barra de progresso junto à ação acionada: preparar minuta, abrir prévia ou finalizar revisão e gerar entrega. Exibe etapas e contagens disponíveis; fica indeterminada quando não há total conhecido. Os controles são liberados novamente após conclusão ou erro.
+- Menor retenção de imagens decodificadas durante a geração do PDF, com limpeza dos arquivos temporários. Na amostra sintética de 64 imagens 4K com marcações, o pico do processo isolado caiu de 541,2 MB para 182,2 MB; as 72 páginas permaneceram visualmente idênticas. Esse resultado não representa a memória total do aplicativo com YOLO nem estabelece requisitos mínimos de hardware.
+- Mantidos o PDF otimizado e os links para imagens em alta resolução, já disponíveis na 0.28.21 também para o laudo. Ao incluir imagens com marcações, extraia todo o ZIP e preserve a pasta **imgs** e **Abrir_imagens.html**. Os links locais no PDF dependem do leitor; no navegador, use a galeria offline. O ZIP pode continuar grande pelas imagens em alta resolução.
+
+## Após atualizar
+
+- Se a seleção de fotos de uma minuta existente mudar, prepare uma nova minuta explicitamente e confira uma nova prévia. A geração com IA consome créditos; documentos e entregas históricos permanecem intactos.
+- Não há configuração manual nova nem atualização necessária do portal de licenças. Originais, dados, revisões humanas e geometrias preservados. SAM2 permanece desativado por padrão.
+
+## Validação e distribuição
+
+- 98 testes Python pertinentes das correções aprovados; na preparação final da versão, oito testes focados e seis cenários JavaScript passaram. Sem chamadas pagas de IA nos testes.
+- Seis manuais comerciais, 119 páginas, atualizados e revisados visualmente; os manuais incorporados aos instaladores foram conferidos.
+- Testes integrais de atualização, abertura e recuperação: **0.28.21 → 0.28.22 → 0.28.21**, nas duas edições. Atualizador inalterado; matriz integral histórica não repetida.
+- Assinatura e integridade verificadas para 22 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.21. Cada release contém 48 anexos: 22 incrementais, 22 manifestos assinados, três manuais e lista SHA-256.
+- Instaladores completos compilados e mantidos somente localmente. Releases e bundles anteriores preservados. Faça o backup operacional habitual antes de atualizar.
+- Os fluxos de progresso passaram em testes automatizados de sucesso e falha; PDFs foram renderizados e comparados. O aceite interativo da tela instalada e da abertura dos links em leitores de PDF permanece com o responsável.
+
 ## 0.28.21 — publicada em 14/11/2026
 
 - Indicadores de revisão na tela do par RGB/térmico, atualizados após salvar, com decisões pendentes, campos técnicos e acesso à pendência. Alterações não salvas, referência do par e revisão humana são estados distintos. Posição de navegação separada das contagens da inspeção.
