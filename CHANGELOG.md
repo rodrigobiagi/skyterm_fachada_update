@@ -1,5 +1,27 @@
 # Histórico de distribuição
 
+## 0.28.23 — publicada em 15/11/2026
+
+- Cadastro e edição da inspeção organizados em identificação, profissionais e dados da inspeção. Campos opcionais **WhatsApp ou telefone do cliente** e **CPF/CNPJ**, com máscaras, validação de tamanho e preservação na exportação/importação. Telefones aceitam DDD com dez ou onze dígitos; CPF onze e CNPJ quatorze. Sem inclusão automática desses campos nos PDFs.
+- Responsável pela inspeção e responsável pela revisão/relatório exibem somente o nome. Operador de drone exibe nome e ID SARPAS na própria seleção, sem repetição. Responsável técnico pelo laudo mantém os dados profissionais. **Informações complementares dos documentos** estão no **Resumo**, expandidas por padrão.
+- Revisão com ferramentas e indicadores compactos, mais espaço para as imagens, motivos claros para pendências e acesso direto ao campo que precisa de preenchimento. Rótulos **Aprovar marcação** e **Aprovar ocorrência** distinguem as decisões. Ajustes de contraste nos temas Claro, Escuro e Sistema; navegação principal renomeada para **Análise avulsa**.
+- Laudo organizado em cinco etapas: **Conferir dados → Preparar minuta → Revisar conteúdo → Conferir PDF → Emitir entrega**. Resumo das fotos incluídas e excluídas segue a regra efetiva do PDF. Estados de minuta salva, atualizada e desatualizada ficam explícitos; confirmações humanas e histórico continuam preservados.
+- **Pausa por falta de créditos na preparação da minuta**, com etapas concluídas preservadas e botão **Retomar preparação**, inclusive após fechar e reabrir o aplicativo. Somente etapas compatíveis são reutilizadas; dados, revisão, instruções, modelo ou contexto diferentes exigem nova preparação. Uma chamada interrompida sem resultado válido precisa ser refeita. A minuta anterior só é substituída após sucesso integral.
+
+## Após atualizar
+
+- Não há configuração manual nova nem atualização necessária do portal de licenças. Cadastros antigos, originais, revisões humanas, geometrias e documentos históricos permanecem preservados. SAM2 continua desativado por padrão.
+- Preparar e retomar a minuta consomem créditos nas chamadas necessárias. Salvar textos, conferir o PDF e emitir não fazem nova chamada à IA. A retomada é uma ação explícita depois de regularizar o saldo ou limite.
+
+## Validação e distribuição
+
+- Testes pertinentes de laudo, cadastro, contatos, portabilidade e revisão aprovados; bateria final de 24 testes Python, seis cenários JavaScript do laudo e verificações de indicadores e máscaras. Falta de créditos, reinício, retomada, entradas incompatíveis e concorrência simulados sem chamadas pagas.
+- Interface conferida com dados fictícios em notebook, desktop e formulário estreito, nos três temas. Fluxo de pausa/reinício/retomada, salvamento, prévia e emissão conferido. O aceite do aplicativo instalado e dos links em leitores de PDF permanece com o responsável.
+- Seis manuais comerciais, 123 páginas, atualizados e revisados visualmente; conteúdo incorporado aos instaladores conferido.
+- Teste integral de atualização, abertura, recuperação e nova abertura somente **0.28.22 → 0.28.23 → 0.28.22**, nas duas edições. Atualizador inalterado; matriz integral histórica não repetida.
+- Assinatura e integridade verificadas para 23 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.22. Cada release contém 50 anexos: 23 incrementais, 23 manifestos assinados, três manuais e lista SHA-256.
+- Instaladores completos compilados e mantidos somente localmente. Releases e bundles anteriores preservados.
+
 ## 0.28.22 — publicada em 15/11/2026
 
 - Relatório, laudo e pacote de entrega utilizam a mesma seleção fotográfica: fotos com ocorrências aprovadas ou corrigidas e revisão concluída, acompanhadas da referência RGB/térmica quando aplicável. Fotos isoladas sem ocorrências e fotos com apenas ocorrências rejeitadas não entram no registro fotográfico. Os estados de revisão humana e referência do par continuam distintos.
