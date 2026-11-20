@@ -1,5 +1,27 @@
 # Histórico de distribuição
 
+## 0.28.24 — publicada em 20/11/2026
+
+- **Mais espaço para as imagens:** cabeçalho compacto, informações auxiliares recolhidas e fotografias ajustadas à área disponível. O modo ampliado preserva os atalhos para a inspeção e para Fotos e Revisão.
+- **Par estável:** RGB sempre à esquerda e térmica à direita, mesmo ao trocar a imagem ativa. Cabeçalhos alinhados e indicação explícita de qual imagem recebe a marcação.
+- **Navegação persistente:** identificação, filtro e botões anterior/próxima permanecem visíveis acima do painel de ocorrências. A navegação leva ao início do cartão; botões sem destino ficam desabilitados.
+- **Pendências consistentes:** o filtro Com qualquer pendência reúne decisões, campos técnicos incompletos e máscaras desatualizadas, usando os mesmos dados salvos dos indicadores. Aguardando decisão é um filtro separado. A confirmação de fotos sem ocorrências continua acessível pelo cartão e pelos indicadores.
+- **Legibilidade e acessibilidade:** textos auxiliares maiores, modos de visualização com estado selecionado exposto às tecnologias assistivas e legendas das marcações dimensionadas para a tela. Claro, Escuro e Sistema preservados.
+
+## Após atualizar
+
+- Sem configuração manual nova ou atualização do portal de licenças. Filtrar e navegar não salvam campos nem aprovam ocorrências. Dados, originais, geometrias, revisão humana, lupa, editores de ponto/caixa/máscara e documentos históricos permanecem preservados. SAM2 continua desativado por padrão.
+- O ajuste de legendas é exclusivo da visualização da revisão; mantém as dimensões da imagem e as coordenadas. A renderização padrão dos relatórios e entregas permanece preservada.
+
+## Validação e distribuição
+
+- 71 testes Python pertinentes aprovados, além de 35 casos de edição por ponteiro e verificações JavaScript dos indicadores. Sem chamadas pagas de IA ou uso de dados reais.
+- Conferência da revisão com dados fictícios em notebook 1366 × 768 e desktop 1920 × 1080, nos temas claro e escuro: par, imagem ativa, filtros, navegação, campos não salvos, lupa, área ampliada e janelas de nova/edição de ocorrência.
+- Seis manuais comerciais, 125 páginas, revisados visualmente; PDFs incorporados aos instaladores conferidos por comparação de pixels.
+- Teste integral somente **0.28.23 → 0.28.24 → 0.28.23** nas duas edições, incluindo aplicação, abertura, recuperação, integridade restaurada e preservação de arquivos não gerenciados. Atualizador inalterado; matriz integral histórica não repetida.
+- Assinatura e integridade verificadas para 24 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.23. Cada release contém 52 anexos: 24 incrementais, 24 manifestos assinados, três manuais e lista SHA-256.
+- Instaladores completos compilados e mantidos somente localmente. Releases e bundles anteriores preservados.
+
 ## 0.28.23 — publicada em 15/11/2026
 
 - Cadastro e edição da inspeção organizados em identificação, profissionais e dados da inspeção. Campos opcionais **WhatsApp ou telefone do cliente** e **CPF/CNPJ**, com máscaras, validação de tamanho e preservação na exportação/importação. Telefones aceitam DDD com dez ou onze dígitos; CPF onze e CNPJ quatorze. Sem inclusão automática desses campos nos PDFs.
