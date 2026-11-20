@@ -1,5 +1,25 @@
 # Histórico de distribuição
 
+## 0.28.25 — publicada em 20/11/2026
+
+- **Cabeçalho uniforme:** logo, subtítulo, menu e versão mantêm tamanho e posição nas telas principais. A barra de rolagem deixa de deslocar o cabeçalho; janelas menores usam o mesmo padrão de duas linhas. O modo ampliado da revisão mantém seu comportamento de ocultação explícita.
+- **Navegação com contexto:** Inspeções permanece destacada na revisão vinculada e na importação; Análise avulsa identifica a revisão independente. Configurações possui título e navegação local consistentes, com indicação acessível da seção ativa.
+- **Ações mais diretas:** Excluir inspeção fica ao lado de Abrir inspeção, com menor destaque visual e confirmação preservada. Ações da foto reúne reprocessar e excluir na Standard; a Parceiro apresenta exclusão direta, sem menu de um único item.
+- **Manuais atualizados:** instalação, uso e configuração white label acompanham os novos caminhos da interface.
+
+## Após atualizar
+
+- Não há configuração manual nova nem atualização do portal de licenças. Dados, originais, geometrias, revisão humana, lupa, editores de ponto/caixa/máscara e documentos históricos são preservados. SAM2 continua desativado por padrão.
+
+## Validação e distribuição
+
+- 40 testes Python pertinentes aprovados: contexto de navegação nas duas edições, exclusão, aparência, marca e layout da revisão. Sem chamadas pagas de IA ou uso de dados reais.
+- Conferência visual com dados fictícios: oito rotas em notebook 1366 × 768 e desktop 1920 × 1080, temas claro/escuro e janela compacta 1024 × 768. Cabeçalho e navegação com medidas iguais entre telas; filtros e menus conferidos. Não constitui auditoria completa com leitores de tela.
+- Seis manuais comerciais, 125 páginas, revisados visualmente; PDFs incorporados aos instaladores conferidos por comparação de pixels.
+- Teste integral somente **0.28.24 → 0.28.25 → 0.28.24** nas duas edições: aplicação, abertura, recuperação, integridade restaurada e preservação de arquivos não gerenciados. Atualizador inalterado; matriz integral histórica não repetida.
+- Assinatura e integridade verificadas para 25 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.24. Cada release contém 54 anexos: 25 incrementais, 25 manifestos assinados, três manuais e lista SHA-256.
+- Instaladores completos compilados e mantidos somente localmente. Releases e bundles anteriores preservados.
+
 ## 0.28.24 — publicada em 20/11/2026
 
 - **Mais espaço para as imagens:** cabeçalho compacto, informações auxiliares recolhidas e fotografias ajustadas à área disponível. O modo ampliado preserva os atalhos para a inspeção e para Fotos e Revisão.
