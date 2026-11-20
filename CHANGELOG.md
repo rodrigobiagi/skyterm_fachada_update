@@ -1,5 +1,20 @@
 # Histórico de distribuição
 
+## 0.28.26 — publicada em 20/11/2026
+
+- Cabeçalho global com **122 px de altura** nas telas principais.
+- Logo com **64 px de altura** e largura adaptável, limitada a **260 px**, preservando suas proporções.
+- Logo, subtítulo e navegação alinhados; a disposição compacta permanece dentro dos mesmos 122 px.
+
+## Validação e distribuição
+
+- Validação funcional simplificada conforme solicitado: conferência visual e das medidas em 1366 × 768 e 1024 × 768, além da revisão do diff. Baterias amplas de funcionalidades não foram repetidas para esta alteração visual.
+- Compilações Standard e Parceiro verificadas, com conferência das fontes incorporadas e abertura dos executáveis.
+- Teste integral de atualização e recuperação somente **0.28.25 → 0.28.26 → 0.28.25** nas duas edições. Atualizador inalterado.
+- Seis manuais com a versão atualizada: capas conferidas visualmente e 125 páginas comparadas com a edição anterior, excluindo apenas a grafia do número da versão. PDFs incorporados aos instaladores conferidos por pixels.
+- Assinatura e integridade conferidas para 26 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.25. Cada release contém 56 anexos: 26 incrementais, 26 manifestos assinados, três manuais e lista SHA-256.
+- Instaladores completos mantidos somente localmente. Releases e bundles anteriores preservados. Não há configuração manual nova nem alteração no portal de licenças, dados, revisão humana, geometrias ou relatórios. SAM2 permanece desativado por padrão.
+
 ## 0.28.25 — publicada em 20/11/2026
 
 - **Cabeçalho uniforme:** logo, subtítulo, menu e versão mantêm tamanho e posição nas telas principais. A barra de rolagem deixa de deslocar o cabeçalho; janelas menores usam o mesmo padrão de duas linhas. O modo ampliado da revisão mantém seu comportamento de ocultação explícita.
