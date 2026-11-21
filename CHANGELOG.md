@@ -1,5 +1,23 @@
 # Histórico de distribuição
 
+## 0.28.27 — publicada em 20/11/2026
+
+- **Filtro exclusivo do relatório por classificação:** seção expansível com todas as categorias, quantidades revisadas e seleção múltipla. Permite emitir, por exemplo, somente Destacamento e Desplacamento.
+- PDF, totais, marcações das fotos e galeria respeitam a classificação final da revisão. Pares elegíveis acompanham como referência; classificações excluídas não recebem marcações. Seleção sem achados elegíveis é recusada. Alterar o filtro exige nova prévia. O laudo e as análises originais permanecem independentes.
+- Catálogo central para nomes, opções de classificação, vocabulário da IA, cores e considerações técnicas. Códigos legados e índices existentes dos modelos YOLO preservados; cadastrar uma categoria não treina automaticamente um modelo.
+- **Revisão do par acima das imagens**, com detalhes expansíveis e navegação de ocorrências na coluna direita.
+- Etapas da inspeção com cores de conclusão/etapa atual; logo proporcional uniforme, mantendo cabeçalho de 122 px e logo de 64 px até 260 px de largura.
+- Botões de ocorrência uniformes em duas colunas no painel estreito; espaçamento corrigido entre o pacote de importação e Conferir pacote.
+
+## Validação e distribuição
+
+- Testes dirigidos de classificação, relatórios/galeria, proteção da prévia, laudos, importação, dataset/YOLO e revisão aprovados. Interface conferida em notebook e desktop, temas claro/escuro, com dados fictícios e sem chamadas pagas de IA.
+- Instaladores completos Standard e Parceiro compilados e mantidos somente localmente; fontes incorporadas e abertura dos executáveis conferidas.
+- Teste integral de atualização e recuperação somente **0.28.26 → 0.28.27 → 0.28.26** nas duas edições. Atualizador inalterado.
+- Seis manuais atualizados: capas e páginas modificadas revisadas visualmente; 123 das 125 páginas equivalentes à versão anterior fora do número da versão. PDFs incorporados conferidos por pixels.
+- Assinatura e integridade dos incrementais para 27 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.26. Cada release contém 58 anexos: 27 incrementais, 27 manifestos assinados, três manuais e lista SHA-256.
+- Releases e bundles anteriores preservados. Não há nova configuração manual ou atualização do portal de licenças. Revisão humana e geometrias preservadas; SAM2 permanece desativado por padrão.
+
 ## 0.28.26 — publicada em 20/11/2026
 
 - Cabeçalho global com **122 px de altura** nas telas principais.
