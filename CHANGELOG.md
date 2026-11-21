@@ -1,5 +1,25 @@
 # Histórico de distribuição
 
+## 0.28.28 — publicada em 21/11/2026
+
+- **Separar em nova ocorrência:** em Editar ocorrência, escolha uma marcação de uma ocorrência com dois ou mais segmentos. O segmento passa a ter código, classificação e informações próprios. Geometria e histórico são preservados; origem e destino voltam para revisão. Cancelamento não grava e conflitos entre janelas impedem sobrescrita.
+- **Formulários padronizados:** Elemento, Sistemas envolvidos, Localização, Incerteza ou limitação, Classificação da ocorrência, Descrição e Observações/Justificativa. Classificações em ordem alfabética, mantendo códigos internos e registros anteriores.
+- Inclusão e edição da incerteza/limitação, inclusive sua remoção. Alterar classificação ou limitação mantém a exigência de justificativa; elemento, sistema e localização continuam dispensados.
+- **Lupa à direita, abaixo do cabeçalho**, respeitando o cabeçalho próprio das janelas de marcação. Barra de ferramentas da revisão com alturas e espaçamentos alinhados e quebra organizada.
+- **Standard: dataset e modelo térmico independentes.** Exportação de caixas ou máscaras revisadas de imagens _T, separada da RGB _V; manifesto por modalidade e verificações de revisão, máscaras, divisão por inspeção e duplicatas.
+- Seleção da modalidade e do dataset compatível no treinamento. Importação, registro de candidatos e ativação térmica separados do modelo RGB; treinamento não ativa automaticamente o resultado. É possível desativar a assistência térmica.
+- O modelo térmico ativo refina marcações multimodais compatíveis na própria térmica, em pares ou arquivos _T isolados. Sem modelo térmico ativo, continua a análise multimodal. Não transfere coordenadas RGB, não mede temperatura pelas cores e preserva geometrias humanas. Parâmetros numéricos e dispositivo são compartilhados; os pesos são selecionados por modalidade.
+
+## Validação e distribuição
+
+- Testes dirigidos de revisão/edição, dataset, inferência, filas retomáveis, restrições da edição Parceiro, relatórios e laudos aprovados; interface conferida em notebook/desktop e temas claro/escuro. Dados fictícios; nenhuma chamada paga de IA.
+- Standard: treinamento térmico real de uma época e inferência CUDA com dados fictícios aprovados. Esse teste valida o funcionamento do fluxo, não a qualidade diagnóstica. Nenhum modelo treinado com dados de clientes acompanha a distribuição; avalie seus candidatos antes de ativá-los.
+- Instaladores completos Standard e Parceiro compilados e mantidos somente localmente. Fontes incorporadas, abertura dos executáveis e PDFs dos manuais conferidos.
+- Teste integral de atualização e recuperação somente **0.28.27 → 0.28.28 → 0.28.27** nas duas edições. Atualizador inalterado.
+- Seis manuais revisados: 128 páginas; 116 equivalentes à versão anterior fora do número da versão. Capas e páginas modificadas conferidas visualmente; PDFs incorporados conferidos por pixels.
+- Assinatura e integridade verificadas para 28 bases por edição: 0.27.0 a 0.27.3 e 0.28.4 a 0.28.27. Cada release contém 60 anexos: 28 incrementais, 28 manifestos assinados, três manuais e lista SHA-256.
+- Releases e bundles anteriores preservados. Sem nova configuração manual ou alteração do portal de licenças. Revisão humana e compatibilidade preservadas; SAM2 permanece desativado por padrão. A edição Parceiro mantém seu escopo sem treinamento/inferência local.
+
 ## 0.28.27 — publicada em 20/11/2026
 
 - **Filtro exclusivo do relatório por classificação:** seção expansível com todas as categorias, quantidades revisadas e seleção múltipla. Permite emitir, por exemplo, somente Destacamento e Desplacamento.
