@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.28.32 — 22/11/2026
+
+- Standard: fluxo unificado de criação, validação e configuração do treinamento RGB/térmico; dataset e tarefa preservados na passagem ao treino.
+- Inspeções de teste podem ser excluídas dos próximos datasets sem apagar fotos ou revisões. Cópias idênticas são consolidadas quando as anotações coincidem; divergências ficam fora e são informadas para revisão.
+- Botões e campos rotulados, busca de inspeções, estado de seleção, opções avançadas recolhidas e preset de teste curto.
+- Revisões humanas, geometrias, relatórios e dados existentes preservados. Parceiro continua sem treinamento YOLO local.
+- Atualização/recuperação integral verificada a partir da 0.28.31 em cada edição; incrementais assinados com integridade conferida e seis manuais atualizados.
+
 ## 0.28.31 — 22/11/2026
 
 - Corrige os botões de confirmação e salvamento ao trocar entre regiões na projeção térmica na RGB.
