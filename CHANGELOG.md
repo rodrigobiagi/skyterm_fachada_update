@@ -1,5 +1,12 @@
 # Histórico de distribuição
 
+## 0.28.29 — 21/11/2026
+
+- Projeção de máscaras térmicas revisadas sobre a RGB nas edições Standard e Parceiro, com alinhamento por referências do par e sem nova localização pela IA.
+- Ajuste manual, identificação do revisor e aprovação explícita antes da inclusão em documentos. Origem térmica identificada; invalidação quando a origem muda. Originais, revisões e datasets preservados.
+- Instaladores completos compilados localmente. Distribuição pública somente de incrementais assinados, manuais e metadados de integridade.
+- Teste integral de atualização/recuperação somente a partir da 0.28.28 nas duas edições; assinatura e integridade de todos os pacotes verificadas. SAM2 continua desativado por padrão.
+
 ## 0.28.28 — publicada em 21/11/2026
 
 - **Separar em nova ocorrência:** em Editar ocorrência, escolha uma marcação de uma ocorrência com dois ou mais segmentos. O segmento passa a ter código, classificação e informações próprios. Geometria e histórico são preservados; origem e destino voltam para revisão. Cancelamento não grava e conflitos entre janelas impedem sobrescrita.
