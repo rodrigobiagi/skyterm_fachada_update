@@ -1,5 +1,12 @@
 # Histórico de distribuição
 
+## 0.28.31 — 22/11/2026
+
+- Corrige os botões de confirmação e salvamento ao trocar entre regiões na projeção térmica na RGB.
+- Coordenadas percentuais fracionárias válidas passam a ser aceitas sem arredondar a geometria; valores vazios ou fora de 0–100% continuam bloqueados.
+- Atualiza o estado dos controles após salvar e ao terminar de arrastar um vértice.
+- Manuais atualizados. Atualizador inalterado; teste integral de atualização e recuperação a partir da 0.28.30 em Standard e Parceiro.
+
 ## 0.28.30 — 22/11/2026
 
 Projeções térmicas visíveis na revisão RGB, com camada e estados próprios; responsável obtido da inspeção sem campo repetido; editor reutilizado com retorno sem duplicação de abas; organização de imagens, ferramentas e decisões; lupa legível e redimensionável nos temas claro e escuro.
