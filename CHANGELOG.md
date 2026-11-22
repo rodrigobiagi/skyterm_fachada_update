@@ -1,5 +1,11 @@
 # Histórico de distribuição
 
+## 0.28.30 — 22/11/2026
+
+Projeções térmicas visíveis na revisão RGB, com camada e estados próprios; responsável obtido da inspeção sem campo repetido; editor reutilizado com retorno sem duplicação de abas; organização de imagens, ferramentas e decisões; lupa legível e redimensionável nos temas claro e escuro.
+
+Sessenta incrementais assinados (30 bases por edição). Teste integral somente 0.28.29 → 0.28.30 → 0.28.29 em Standard e Parceiro; assinatura e integridade conferidas em todos os pacotes. Três manuais por edição. Instaladores completos distribuídos separadamente.
+
 ## 0.28.29 — 21/11/2026
 
 - Projeção de máscaras térmicas revisadas sobre a RGB nas edições Standard e Parceiro, com alinhamento por referências do par e sem nova localização pela IA.
