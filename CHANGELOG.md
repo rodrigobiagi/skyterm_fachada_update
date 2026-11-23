@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.30.0 — 23/11/2026
+
+- Importação e exportação de inspeções em segundo plano, com barra de progresso e painel visível em qualquer tela.
+- CPF e CNPJ com máscara e validação, incluindo o CNPJ alfanumérico; cadastros existentes preservados.
+- Menu Ajuda com o conteúdo dos manuais e perguntas frequentes; correções de interface em janelas estreitas, contraste e Profissionais responsáveis.
+- Análise avulsa sem travar a tela; exportação Detect não trata Indeterminado aprovado como fundo; escritas de outro site recusadas.
+- Atualização/recuperação integral verificada a partir da 0.29.1 nas duas edições; incrementais assinados com integridade conferida. Manuais da versão incluídos.
+
 ## 0.29.1 — 23/11/2026
 
 - Análises com Claude (Anthropic) passam a solicitar o contorno de cada ocorrência, como já ocorria com a OpenAI; antes, a revisão podia exibir apenas o retângulo automático da BBox.
