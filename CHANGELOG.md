@@ -1,5 +1,11 @@
 # Histórico de distribuição
 
+## 0.29.1 — 23/11/2026
+
+- Análises com Claude (Anthropic) passam a solicitar o contorno de cada ocorrência, como já ocorria com a OpenAI; antes, a revisão podia exibir apenas o retângulo automático da BBox.
+- Requisições à OpenAI, prompts e dados existentes inalterados. Revisões humanas e geometrias preservadas.
+- Atualização/recuperação integral verificada a partir da 0.29.0 na edição Standard; incrementais assinados com integridade conferida nas duas edições. Manuais da versão incluídos.
+
 ## 0.29.0 — 23/11/2026
 
 - Provedor de IA configurável: OpenAI (padrão, GPT-5.6) ou Claude, da Anthropic (Claude Opus 5.5 ou Sonnet 5.5), escolhido separadamente para a análise de imagens (Standard) e para a redação do laudo (Standard e Parceiro).
