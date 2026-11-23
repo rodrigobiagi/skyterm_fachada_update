@@ -5,7 +5,7 @@ O código-fonte é mantido em repositório privado independente.
 
 ## Estado
 
-Versão atual: **0.28.32**, disponível para [Standard](https://github.com/rodrigobiagi/skyterm_fachada_update/releases/tag/standard-v0.28.32) e [Parceiro](https://github.com/rodrigobiagi/skyterm_fachada_update/releases/tag/partner-v0.28.32).
+Versão atual: **0.29.0**, disponível para [Standard](https://github.com/rodrigobiagi/skyterm_fachada_update/releases/tag/standard-v0.29.0) e [Parceiro](https://github.com/rodrigobiagi/skyterm_fachada_update/releases/tag/partner-v0.29.0).
 
 As releases publicadas identificam a versão de destino, a edição e as versões de origem compatíveis.
 

@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.29.0 — 23/11/2026
+
+- Provedor de IA configurável: OpenAI (padrão, GPT-5.6) ou Claude, da Anthropic (Claude Opus 5.5 ou Sonnet 5.5), escolhido separadamente para a análise de imagens (Standard) e para a redação do laudo (Standard e Parceiro).
+- Nova seção Configurações > Inteligência artificial, também aberta pelo botão Configurar IA da janela do aplicativo: cadastrar, trocar, remover e testar chaves; modelo por tarefa; detalhe da imagem e segundas passadas com estimativa de chamadas. A troca de chave vale sem reiniciar.
+- Chaves continuam criptografadas pelo Windows, não voltam ao navegador e não entram em backups nem em pacotes de intercâmbio. A chave OpenAI já cadastrada continua válida. Chaves Claude devem ser criadas dentro de um workspace do Claude Console.
+- Cada análise e minuta registra o provedor e o modelo utilizados. Revisões humanas, geometrias, relatórios e dados existentes preservados.
+- Atualização/recuperação integral verificada a partir da 0.28.32 em cada edição; incrementais assinados com integridade conferida e seis manuais atualizados.
+
 ## 0.28.32 — 22/11/2026
 
 - Standard: fluxo unificado de criação, validação e configuração do treinamento RGB/térmico; dataset e tarefa preservados na passagem ao treino.
