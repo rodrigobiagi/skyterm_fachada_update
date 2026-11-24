@@ -1,5 +1,17 @@
 # Histórico de distribuição
 
+## 0.30.5 — 2026-11-24
+
+- Revisão: Salvar e aprovar reúne a gravação dos campos e a decisão técnica. Ocorrências já validadas exibem Salvar alterações; Reabrir revisão retorna a Pendente. Histórico e conferência das marcações preservados.
+- Biblioteca técnica: importação de TXT/Markdown longos em partes, sem perda de conteúdo. Títulos como ## Página 222 identificam a numeração impressa para conferência.
+- Excluir material retira o documento das novas consultas, preservando original e versões históricas das referências utilizadas.
+- Reavaliação da descrição com IA: o formato de resposta só permite as referências fornecidas pela Biblioteca técnica; sem fontes, a resposta não solicita citações. Aplicação e salvamento continuam humanos.
+
+Inclui os manuais de instalação, configuração white label e uso atualizados.
+Atualizações incrementais assinadas. Teste integral de atualização e recuperação: 0.30.4 → 0.30.5 → 0.30.4 em cada edição; demais pacotes com assinatura e integridade verificadas. Instaladores completos compilados localmente, sem anexos executáveis nesta release.
+
+A avaliação quantitativa do YOLO permanece pendente: conferir pesos e classes; conjunto independente revisado; métricas por classe, máscaras, tempo e memória; comparação imagem inteira/recortes em RGB e térmica; ajustes ou novos treinos antes de ativar. Esta versão não conclui essa configuração nem treina ou ativa modelos automaticamente.
+
 ## 0.30.4 — 24/11/2026
 
 - CPF/CNPJ reconhecidos automaticamente, com máscara e validação ao completar o preenchimento ou sair do campo. Não é mais necessário selecionar o tipo de documento.
