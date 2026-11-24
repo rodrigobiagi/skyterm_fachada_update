@@ -1,5 +1,17 @@
 # Histórico de distribuição
 
+## 0.30.4 — 24/11/2026
+
+- CPF/CNPJ reconhecidos automaticamente, com máscara e validação ao completar o preenchimento ou sair do campo. Não é mais necessário selecionar o tipo de documento.
+- Fotografias mantêm tamanho e posição ao editar, salvar ou aprovar ocorrências. Campos técnicos e navegação ficam mais compactos em telas estreitas.
+- Biblioteca técnica opcional em Configurações: importação de PDF/TXT/MD, conferência, ativação explícita e referências com fonte, edição, página e trecho. Sem biblioteca ativa, o funcionamento habitual é mantido.
+- Inicializador reorganizado, com estados de OpenAI e Claude em linhas separadas e ações alinhadas.
+- Ajuda e manuais de instalação, configuração white label e uso atualizados.
+- Reavaliar descrição com IA para qualquer classificação: comparar a sugestão, aplicar ou manter o texto atual. A consulta é explícita; a revisão humana continua necessária para salvar/aprovar.
+- Biblioteca consultada na análise, reavaliação e preparação da minuta. Digitalizações permitem transcrição manual ou OCR de uma página por solicitação explícita de IA.
+- YOLO pode apresentar candidatos próprios como sugestões pendentes, com origem, conflitos e métricas de contribuição visíveis. Não há treino/ativação automática nem afirmação de ganho de acurácia; a avaliação quantitativa com conjunto independente permanece pendente.
+- Atualização/recuperação integral a partir da 0.30.3 em ambas as edições.
+
 ## 0.30.3 — 24/11/2026
 
 - Transferências concluídas deixam de manter o painel aberto. Histórico e downloads acessíveis pelo botão Transferências, sem duplicar o progresso na tela da operação.
