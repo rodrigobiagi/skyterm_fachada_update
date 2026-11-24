@@ -1,5 +1,15 @@
 # Histórico de distribuição
 
+## 0.30.3 — 24/11/2026
+
+- Transferências concluídas deixam de manter o painel aberto. Histórico e downloads acessíveis pelo botão Transferências, sem duplicar o progresso na tela da operação.
+- Listas de seleção em ordem alfabética pelo texto em português, preservando valores selecionados e códigos internos.
+- Ocorrências com códigos curtos consistentes na revisão, edição, marcações, projeções e novos documentos, inclusive em registros antigos/importados.
+- Removido Configurar IA do inicializador. As chaves são gerenciadas em Configurações > Inteligência artificial; o inicializador informa separadamente o cadastro de OpenAI e Claude.
+- Ajuda e três manuais atualizados por edição.
+- No Standard, reprocessamento substitui o conjunto ativo com preservação da versão anterior no histórico; falhas preservam os dados anteriores e pares são salvos juntos. Novos achados exigem revisão.
+- Atualização/recuperação integral a partir da 0.30.2 nas duas edições; incrementais assinados e manuais conferidos.
+
 ## 0.30.2 — 23/11/2026
 
 - Importação e exportação com progresso por etapa, histórico recolhível e identificação da inspeção. Ocultar o aviso mantém o pacote disponível para download; a remoção do arquivo é separada.
