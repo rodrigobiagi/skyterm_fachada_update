@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.30.2 — 23/11/2026
+
+- Importação e exportação com progresso por etapa, histórico recolhível e identificação da inspeção. Ocultar o aviso mantém o pacote disponível para download; a remoção do arquivo é separada.
+- Corrigidos pacotes consecutivos, retorno à tela, resultados antigos e bloqueio de fechamento durante transferências.
+- CPF/CNPJ validados ao completar ou sair do campo, com mensagens junto ao preenchimento. Seletor CPF/CNPJ no cliente; documentos antigos inalterados preservados.
+- Sistemas construtivos com seleção múltipla e orientações específicas para novas análises. Inspeções anteriores conservam a orientação até adoção explícita; filas em andamento, revisões e geometrias humanas preservadas.
+- Corrigidos os links Criar chave de OpenAI e Claude. Ajuda e manuais atualizados.
+- Atualização/recuperação integral verificada somente a partir da 0.30.1 nas duas edições; incrementais assinados com integridade conferida e seis manuais incluídos.
+
 ## 0.30.1 — 24/11/2026
 
 - Correção de interface: o item Profissionais responsáveis do menu lateral de Configurações não quebra mais em duas linhas.
