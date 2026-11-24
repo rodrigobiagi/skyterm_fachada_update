@@ -1,5 +1,10 @@
 # Histórico de distribuição
 
+## 0.30.1 — 24/11/2026
+
+- Correção de interface: o item Profissionais responsáveis do menu lateral de Configurações não quebra mais em duas linhas.
+- Atualização/recuperação integral verificada a partir da 0.30.0 nas duas edições; incrementais assinados com integridade conferida. Manuais da versão incluídos.
+
 ## 0.30.0 — 23/11/2026
 
 - Importação e exportação de inspeções em segundo plano, com barra de progresso e painel visível em qualquer tela.
