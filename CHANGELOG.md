@@ -1,5 +1,22 @@
 # Histórico de distribuição
 
+## 0.30.9 — 25/11/2026
+
+## Navegação e revisão mais organizadas
+
+- Botões de retorno, Foto anterior e Ver original com aparência consistente e legibilidade nos temas claro e escuro. Navegação entre fotos agrupada e indicação da posição na inspeção.
+- Resumo, Fotos e revisão e Documentos como abas uniformes. Ação de projeção térmica alinhada aos controles e afastada da borda.
+- Marcações e evidências em seção expansível, preservando as ações de geometria e dando acesso mais direto aos campos técnicos. Cabeçalho global de 122 px e logo preservados.
+- Aprovar todas as projeções permite confirmar as pendentes válidas do par após conferência humana. Usa o revisor da inspeção, preserva decisões anteriores e bloqueia origem desatualizada, geometria inválida e edição concorrente.
+- Menos leituras repetidas ao abrir inspeções e verificar projeções. Prévias das imagens proporcionais à tela, com invalidação por conteúdo; original, lupa e edição mantêm alta resolução.
+
+Validação focada: 73 testes de revisão, navegação, projeções, contexto dos documentos, Ajuda e preparação do build, além de conferência visual em notebook/desktop nos dois temas. Medições sintéticas mostram redução do tempo de abertura de inspeções; não representam todos os cenários de uso.
+
+Inclui três manuais atualizados. Atualização e recuperação integrais testadas somente de 0.30.8 para 0.30.9 e de volta à 0.30.8, em cada edição. Assinatura e conteúdo de todos os incrementais conferidos; sem repetir instalações completas de todas as bases históricas.
+
+Instaladores completos compilados localmente, sem anexos executáveis nesta release. Dados, originais, geometrias e histórico preservados. Avaliação quantitativa do YOLO permanece pendente; nenhum modelo ou dataset é alterado por esta entrega.
+
+
 ## 0.30.8 — 24/11/2026
 
 ## Descrição completa com o contexto do revisor
