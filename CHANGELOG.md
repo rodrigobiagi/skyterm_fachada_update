@@ -1,5 +1,21 @@
 # Histórico de distribuição
 
+## 0.30.8 — 24/11/2026
+
+## Descrição completa com o contexto do revisor
+
+- A reavaliação com IA recebe orientação para reunir a observação da imagem, a classificação informada pelo revisor e as ressalvas específicas em um texto completo, pronto para conferir e aplicar.
+- Distingue classificação selecionada pelo revisor, classificação já aprovada e proposta automática ainda pendente. Considera a identificação humana sem inventar como ela foi confirmada.
+- Detalhes como perda de material ou substrato exposto dependem das evidências disponíveis ou do relato do revisor. O contorno térmico não determina automaticamente a extensão física do defeito.
+- A tela identifica a **Descrição completa a aplicar** e separa o comentário complementar da IA. Aplicar preenche o campo Descrição; o salvamento continua explícito. Texto idêntico, edições humanas, histórico e proteções contra sugestões desatualizadas são preservados.
+
+Validação focada: 34 testes de descrição, revisão, Ajuda e preparação do build. Fluxo de aplicar/salvar/reabrir conferido no navegador em desktop escuro e notebook claro, com respostas de IA simuladas. A qualidade da redação de provedores reais não foi avaliada por chamadas pagas nesta validação.
+
+Inclui os três manuais atualizados. Atualizações incrementais assinadas, com conteúdo e integridade verificados. Teste integral de atualização e recuperação somente 0.30.7 → 0.30.8 → 0.30.7 em cada edição; bases históricas verificadas por inventários publicados autenticados, sem repetir instalações completas.
+
+Instaladores completos compilados localmente, sem anexos executáveis nesta release. Dados existentes, revisão humana, geometrias e histórico preservados. Os cinco itens da avaliação quantitativa do YOLO continuam pendentes; não há treinamento nem alteração de modelos/datasets.
+
+
 ## 0.30.7 — 24/11/2026
 
 ## Correção da reavaliação de descrição
