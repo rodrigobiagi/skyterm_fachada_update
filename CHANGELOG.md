@@ -1,5 +1,18 @@
 # Histórico de distribuição
 
+## 0.30.6 — 24/11/2026
+
+- Corrige o erro “A sugestão pertence a outra revisão/classificação” ao salvar novamente após aplicar e salvar uma descrição sugerida pela IA.
+- Aplicar sugestão preenche e destaca o campo Descrição. O botão passa a Sugestão aplicada, sem indicar processamento contínuo; a gravação continua dependendo de Salvar alterações ou Salvar e aprovar.
+- Após salvar, a proposta é encerrada corretamente. Falhas de gravação preservam texto e sugestão para nova tentativa. Histórico, revisão humana e geometrias permanecem preservados.
+
+Inclui os manuais de instalação, configuração white label e uso atualizados.
+
+Validação focada: 25 testes de descrição, revisão, ajuda e preparação do build; fluxo de aplicar/salvar novamente no navegador e indicadores JavaScript. Teste integral de atualização e recuperação somente 0.30.5 → 0.30.6 → 0.30.5 em cada edição. Pacotes de todas as bases suportadas com assinatura e conteúdo verificados; inventários históricos autenticados pelos manifestos assinados da publicação anterior.
+
+Instaladores completos compilados localmente, sem anexos executáveis nesta release. A configuração e avaliação quantitativa do YOLO continuam pendentes; não houve treinamento ou alteração de modelos/datasets.
+
+
 ## 0.30.5 — 2026-11-24
 
 - Revisão: Salvar e aprovar reúne a gravação dos campos e a decisão técnica. Ocorrências já validadas exibem Salvar alterações; Reabrir revisão retorna a Pendente. Histórico e conferência das marcações preservados.
