@@ -1,5 +1,20 @@
 # Histórico de distribuição
 
+## 0.30.7 — 24/11/2026
+
+## Correção da reavaliação de descrição
+
+- Quando a IA retorna o mesmo texto, a tela informa **Descrição atual mantida / Sem alteração no texto**, sem oferecer Aplicar ou indicar alteração pendente.
+- Descrição e avaliação da classificação são identificadas separadamente. A avaliação não é anexada automaticamente à descrição.
+- Quando há uma nova redação, Aplicar sugestão continua preenchendo o campo para conferência e salvamento humanos. Fechar avaliação conserva o texto e devolve o foco ao botão de reavaliação.
+
+Validação focada: 25 testes de descrição, revisão, Ajuda e preparação do build. Conferência do fluxo no navegador em desktop escuro e notebook claro, incluindo falha de gravação, nova tentativa e salvamentos seguintes. Não repetida a bateria de funcionalidades sem alterações.
+
+Inclui os três manuais atualizados. Atualizações incrementais assinadas, com conteúdo e integridade verificados. Teste integral de atualização e recuperação somente 0.30.6 → 0.30.7 → 0.30.6 em cada edição; bases históricas verificadas por inventários publicados autenticados, sem repetir instalações completas.
+
+Instaladores completos compilados localmente, sem anexos executáveis nesta release. Dados existentes, revisão humana, geometrias e histórico preservados. Os cinco itens da avaliação quantitativa do YOLO continuam pendentes; não há treinamento nem alteração de modelos/datasets.
+
+
 ## 0.30.6 — 24/11/2026
 
 - Corrige o erro “A sugestão pertence a outra revisão/classificação” ao salvar novamente após aplicar e salvar uma descrição sugerida pela IA.
