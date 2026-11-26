@@ -1,5 +1,20 @@
 # Histórico de distribuição
 
+## 0.30.10 — 25/11/2026
+
+## Revisão e edição de ocorrências
+
+- Reavaliar descrição com IA também em Nova ocorrência e Editar ocorrência, usando campos e geometria do rascunho. Funciona com descrição vazia. Aplicar sugestão preenche o campo; Salvar marcação grava o resultado e sua proveniência. A edição Parceiro mantém suas permissões, sem análise de imagens por IA.
+- Revisão do par compacta, estados por imagem, ação para resolver pendências e detalhes sobrepostos. Abrir os detalhes não desloca nem redimensiona as fotos.
+- Retorno padronizado: Concluir e voltar à revisão em verde para etapa salva/concluída; Voltar à revisão neutro quando pendente. Nos editores, junto de Salvar; na projeção, abaixo de Não incluir esta projeção. Rascunhos continuam protegidos.
+- Cores, foco e layout conferidos nos temas claro e escuro. Cabeçalho global de 122 px preservado.
+- Três manuais atualizados em cada edição. Todo o conteúdo dos manuais está refletido no menu Ajuda da mesma versão.
+
+Testes concentrados nas funcionalidades afetadas, com dados sintéticos e provedor de IA simulado, sem chamadas pagas. Atualização e recuperação integrais desde 0.30.9 em ambas as edições; assinatura e conteúdo de todos os pacotes incrementais verificados. Instaladores completos compilados localmente, sem executáveis anexados à release.
+
+A avaliação quantitativa do YOLO continua pendente. Nenhum modelo ou dataset é alterado por esta entrega.
+
+
 ## 0.30.9 — 25/11/2026
 
 ## Navegação e revisão mais organizadas
