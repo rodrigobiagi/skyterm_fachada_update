@@ -1,5 +1,24 @@
 # Histórico de distribuição
 
+
+## 0.31.0 — 25/11/2026
+
+### Retorno à revisão padronizado
+
+- Nova ocorrência, Editar ocorrência e Projeção térmica na RGB mantêm o botão verde com texto branco **Concluir e voltar à revisão**, antes e depois de salvar.
+- A confirmação de saída com alterações não salvas e o bloqueio durante operações foram preservados. Retornar não salva nem aprova automaticamente.
+- Temas claro e escuro conferidos; manuais e conteúdo da Ajuda atualizados em conjunto. Cabeçalho e geometrias preservados.
+
+### Proteção parcial do código
+
+- Regras de análise e núcleo documental compartilhado por relatório e laudo compilados com Cython, mantendo PyInstaller. Na Standard, inclui as regras próprias de inferência YOLO.
+- Instaladores e incrementais derivados do mesmo build, com auditoria de extensões e ausência de cópias Python dos módulos protegidos. Schemas, rotas e apresentação permanecem compatíveis.
+- A compilação dificulta engenharia reversa, mas não garante sigilo de prompts, strings ou pesos e não substitui o licenciamento.
+
+Bateria funcional completa executada com os módulos compilados. Atualização e recuperação integrais desde a 0.30.10 em cada edição, incluindo entrada e retirada das extensões; assinaturas e conteúdo de todos os incrementais conferidos. Instaladores completos compilados localmente; esta release contém apenas incrementais, manuais e metadados de integridade.
+
+A avaliação quantitativa do YOLO permanece pendente; modelos e datasets não foram alterados.
+
 ## 0.30.10 — 25/11/2026
 
 ## Revisão e edição de ocorrências
