@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Delete older releases and tags
-        uses: jay2610/delete-older-releases@v1.4.0
+        uses: jay2610/delete-older-releases@v1.0.1
         with:
           keep_latest: 10
           delete_tags: true
