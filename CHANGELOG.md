@@ -1,5 +1,16 @@
 # Histórico de distribuição
 
+## 0.32.2 — 27/11/2026
+
+- Título contextual ao lado do código, com ajuste nas bordas e quebra de títulos longos. Selecionar uma ocorrência não abre todos os títulos de suas marcações.
+- Etiquetas próximas ao contorno, com ligação curta, fundo levemente transparente e cores preservadas. Destaque individual da marcação escolhida; teclado e clique/toque mantidos.
+- Conferência nos temas claro e escuro, seleção, filtros e estabilidade das imagens. Cenas densas ou junto às bordas podem limitar o espaço disponível.
+- Manuais comerciais e conteúdo integral da Ajuda atualizados em conjunto.
+
+29 testes funcionais focados aprovados nos fontes e repetidos com os módulos compilados; nove casos JavaScript de posicionamento e regressão do progresso da revisão. Atualização e recuperação integrais desde a 0.32.1 nas duas edições. Assinatura, integridade e conteúdo dos 98 incrementais conferidos. Instaladores completos compilados localmente; entrega pública apenas de incrementais, manuais e integridade. Releases anteriores preservadas.
+
+Revisão humana, geometrias e compatibilidade preservadas. Sem alteração de pesos ou datasets; avaliação quantitativa do YOLO ainda pendente e SAM2 desativado por padrão.
+
 ## 0.32.1 — 27/11/2026
 
 - Nova ocorrência e Editar ocorrência têm ações alinhadas, ferramentas de ramificação separadas e avisos de salvamento junto aos botões.
