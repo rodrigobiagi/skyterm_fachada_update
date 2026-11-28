@@ -1,5 +1,16 @@
 # Histórico de distribuição
 
+## 0.32.1 — 27/11/2026
+
+- Nova ocorrência e Editar ocorrência têm ações alinhadas, ferramentas de ramificação separadas e avisos de salvamento junto aos botões.
+- Dados da ocorrência abre o formulário; Salvar ocorrência, Salvar alterações e Salvar marcação distinguem cadastro, edição e complemento.
+- Desfazer e Ctrl+Z fora dos campos recuperam a limpeza, remoção de ramificações e gestos geométricos. O histórico reinicia ao salvar ou trocar o segmento/destino.
+- A lupa fica abaixo dos controles visíveis, inclusive ao mover, redimensionar e rolar. Conferência nos temas claro/escuro e janela estreita. Concluir e voltar à revisão permanece verde e não substitui salvar/aprovar.
+- Manuais atualizados e conteúdo completo sincronizado no menu Ajuda.
+
+79 testes funcionais focados aprovados nos fontes e repetidos com os módulos compilados; 37 casos de ponteiro/arraste e cenários de histórico/desfazer em JavaScript. Atualização e recuperação integrais desde a 0.32.0 nas duas edições. Assinatura, integridade e conteúdo dos 96 incrementais conferidos. Instaladores completos compilados localmente; entrega pública apenas de incrementais, manuais e integridade. Releases anteriores preservadas.
+
+Revisão humana, geometrias e compatibilidade preservadas. Sem alteração de pesos ou datasets; avaliação quantitativa do YOLO ainda pendente e SAM2 desativado por padrão.
 
 ## 0.32.0 — 27/11/2026
 
