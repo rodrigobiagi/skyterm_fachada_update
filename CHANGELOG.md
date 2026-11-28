@@ -1,5 +1,14 @@
 # Histórico de distribuição
 
+## 0.32.3 — 2026-11-28
+
+- Projeção térmica no painel lateral da revisão, com imagens estáveis e sem outra aba. Links antigos redirecionam ao novo fluxo.
+- Tentativa automática quando elegível; referências e ajuste manual na própria revisão, aprovação explícita, responsável e histórico preservados.
+- Proteção dos ajustes não salvos e contra edições concorrentes; retorno ao formulário de ocorrências com o rascunho preservado.
+- Temas claro/escuro, seis manuais e Ajuda integral conferidos. 821 testes e 10 subtestes com fontes e módulos nativos; atualização/recuperação completas desde 0.32.2 nas duas edições. Todos os incrementais assinados e verificados.
+- Limites do alinhamento automático e avaliação quantitativa YOLO pendente mantidos. Modelos/datasets e atualizador não alterados.
+
+
 ## 0.32.2 — 27/11/2026
 
 - Título contextual ao lado do código, com ajuste nas bordas e quebra de títulos longos. Selecionar uma ocorrência não abre todos os títulos de suas marcações.
