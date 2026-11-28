@@ -1,5 +1,13 @@
 # Histórico de distribuição
 
+## 0.32.4 — 2026-11-28
+
+- Alternativa de alinhamento por contornos estruturais com hipótese de escala EXIF, controle de ambiguidade e correspondências reservadas. Não substitui calibração ou aprovação técnica.
+- Mensagens específicas para alinhamento insuficiente e máscaras fora da área verificada; ações de recarregar/tentar alinhamento separadas e contagem de referências manuais.
+- 12 pares reais retestados: 4 alinhamentos aceitos; 3 das 19 máscaras disponíveis em sete pares projetáveis automaticamente. Os demais casos mantêm alternativa manual. Conjunto de desenvolvimento, sem alegação de validação independente.
+- 827 testes e 10 subtestes em fontes/módulos compilados; temas claro/escuro, manuais/Ajuda e atualização/recuperação completas desde 0.32.3 nas duas edições. Incrementais assinados e verificados; modelos e atualizador inalterados.
+
+
 ## 0.32.3 — 2026-11-28
 
 - Projeção térmica no painel lateral da revisão, com imagens estáveis e sem outra aba. Links antigos redirecionam ao novo fluxo.
