@@ -1,6 +1,25 @@
 # Histórico de distribuição
 
 
+## 0.32.0 — 27/11/2026
+
+### Revisão e geometria
+
+- Etiquetas e regiões selecionam a ocorrência correspondente, com suporte a teclado e toque e imagens estáveis.
+- Traçados abertos e ramificações podem ser desenhados e editados, preservando a geometria anterior. Não substituem máscaras de área no dataset.
+- Na Standard, novas análises tentam localizar os alvos RGB em recortes e refinar sua geometria. Sem suporte local, a proposta anterior é preservada. A opção fica em Processamento; recortes adicionais consomem chamadas de IA.
+- A projeção térmica tenta alinhamento automático com verificação de correspondências. Quando insuficiente, mantém a alternativa por referências manuais. Projeções continuam exigindo conferência e aprovação.
+
+### Organização e documentos
+
+- Inspeções pode ser ordenada por empreendimento, cliente ou torre, nos dois sentidos e junto com os filtros.
+- Relatórios mostram progresso e resultado na própria tela. Leituras da interface não causam o bloqueio de manutenção; gravações concorrentes continuam protegidas.
+- Temas claro e escuro, manuais e conteúdo completo da Ajuda atualizados em conjunto.
+
+Os recursos automáticos podem omitir trechos ou propor posições incorretas. Não implicam aprovação técnica, calibração entre câmeras ou medidas físicas. A avaliação independente do YOLO permanece pendente; não foram treinados ou ativados novos modelos.
+
+Testes funcionais completos, testes de interface e conferência com três pares reais. Atualização e recuperação integrais desde a 0.31.0 em cada edição; assinatura e conteúdo de todos os incrementais conferidos. Instaladores completos compilados localmente. Esta release contém incrementais assinados, manuais e integridade.
+
 ## 0.31.0 — 25/11/2026
 
 ### Retorno à revisão padronizado
