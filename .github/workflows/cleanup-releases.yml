@@ -1,10 +1,8 @@
 name: Limpar Releases e Tags Antigas
 
 on:
-  # Roda automaticamente toda vez que uma nova release for publicada
-  release:
-    types: [published]
-  # Também permite executar manualmente pela aba "Actions" no GitHub
+  # Publicações devem preservar releases e tags anteriores para recuperação.
+  # Limpeza somente por solicitação manual explícita na aba Actions.
   workflow_dispatch:
 
 jobs:
